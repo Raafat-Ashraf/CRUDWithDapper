@@ -1,0 +1,6 @@
+﻿services:
+  crudwithdapper.api:
+    image: crudwithdapper.api
+    build:
+      context: .
+      dockerfile: CRUDWithDapper.Api/Dockerfile
